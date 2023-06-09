@@ -2,7 +2,7 @@
 
 /*
 paleta de cores
-verde # 49a09d
+verde #49a09d
 lilas #5f2c82
 */
 * {
@@ -57,5 +57,85 @@ h1 {
     margin-bottom: 7px;
 }
 p{
+ font-size: 0.8em;
+
+}
+form > input[ type=submit]{
+    
+    width: 100%;
+    height: 40px;
+    background: #49a09d;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+form >div.campo {
+    width:100%;
+    margin: 5px 0px;
+    display: block;
+    height: 40px;
+    background-color: #5f2c82;
+    border-radius: 8px;
+    border: 1px solid #5f2c82;
+}
+div.campo > label {
+    display: none; 
+    
+}
+form > input[ type=submit]:hover{
+    background: #2c6361;
+    font-size: 1em;   
+}
+form >.botao {
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    margin-top:5px;
+    padding-top: 7px;
+    border: 1px solid #33ccc7;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #2c6361;
+
+
+    
+}
+form >.botao:hover {
+    background-color: #49a09d;
+    color: white;
+}
+form >.botao > span {
     font-size: 0.8em;
 }
+div.campo > span { 
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    
+}
+
+
+
+div.campo > input {
+    background-color: #49a09d ;
+    display: inline-block;
+    font-size: 1em;
+    height: 100%;
+    width:calc(100% - 45px);
+    
+    border-radius: 8px;
+    border: 1px solid #5f2c82; 
+    padding: 5px;
+    transform: translateY(-11px);
+    
+    
+  
+}
+div.campo > input:focus-within{
+    background-color: white;  
+} 
+
